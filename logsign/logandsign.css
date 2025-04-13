@@ -1,0 +1,133 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: url('https://i.ibb.co/pR3pmW1/background.png') center center/cover no-repeat; /* Replace 'your-image.png' with your image file */
+}
+
+
+/* This is the box for the registration and login */
+form {
+    background-color: #282B2E;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    width: 400px; 
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+label {
+    display: none; 
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="checkbox"] {
+    width: calc(100% - 16px); 
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    position: relative;
+    border: .5px solid #888B8C; 
+    background-color: #282B2E; 
+    color: #fff; 
+    border-radius: 5px; 
+}
+
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+input[type="password"]::placeholder,
+input[type="checkbox"]::placeholder {
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    color: #888;
+    pointer-events: none;
+    width: calc(100% - 16px); 
+}
+
+input[type="text"]:focus::placeholder,
+input[type="email"]:focus::placeholder,
+input[type="password"]:focus::placeholder,
+input[type="checkbox"]:focus::placeholder {
+    color: transparent;
+}
+
+input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: calc(100% - 16px); /* Adjusted width */
+    box-sizing: border-box;
+}
+
+input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+.name-fields input {
+    display: inline-block;
+    width: calc(50% - 10px); /* Adjusted width for name fields */
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+/* Show labels for checkboxes */
+input[type="checkbox"] {
+    width: auto; /* Adjust width for checkbox */
+    margin-bottom: 10px;
+    display: inline-block; /* Display checkbox inline */
+    vertical-align: middle; /* Align checkbox vertically */
+}
+
+label[for="terms"] {
+    display: inline-block; /* Display "I accept" text inline */
+    margin-bottom: 10px;
+    vertical-align: middle; /* Align text vertically */
+}
+
+.login-link {
+    text-decoration: none; /* Remove underline */
+    text-align: center; /* Center the login link */
+    margin-top: 10px; /* Add some space at the top */
+    font-size: 14px; /* Reduce font size */
+}
+
+.terms-label {
+    font-size: 14px; /* Reduce font size */
+}
+
+/* Styling for Terms of Use & Privacy Policy sections */
+#terms-section,
+#privacy-section {
+    display: none;
+    margin-top: 20px;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

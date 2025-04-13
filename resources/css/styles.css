@@ -1,0 +1,675 @@
+/* Paste the entire content into your styles.css file */
+
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: #0b0b0b ;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: scroll; /* Add this line to show scrollbar when needed */
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+}   
+/*top bar*/
+.top-bar {
+    width: 100%;
+    background-color: #0b0b0b;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border-bottom: 1px solid #fff;
+}
+.nav-box {
+    background-color: #1E1F20;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    width: auto;
+    text-align: center;
+}
+.nav-box a {
+    text-decoration: none;
+    color: #fff;
+}
+.logo {
+    display: flex;
+} 
+.logo img {
+    max-height: 45px;
+    margin-top: -5px;
+    margin-bottom: -8px;
+}
+.nav-links {
+    display: flex;
+    display: inline-block;
+}
+.nav-links a {
+    margin-right: 20px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+}
+
+/*search bar*/
+.search-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.search-box {
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: rgb(63, 63, 66);
+}
+
+.main-content {
+    width: 100%;
+    padding: 5px;
+    background-color: #0b0b0b;
+    color: #fffefe;
+    min-height: 100vh;
+}
+
+/*homepage*/
+.intro {
+    text-align: center;
+}
+.homepageimg {
+    text-align: center;
+}
+.homepageimg img {
+    max-width: 80%;
+    max-height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.homepageimg h1 {
+    margin-top: 5px;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.homepageimg .class {
+    margin-top: 0px;
+}
+
+/*genre*/
+.genre-intro {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+.genre-intro .title1 {
+    margin-top: -5px;
+}
+.genre-intro a {
+    justify-content: space-between;
+    text-align: left;
+    padding: 5px;
+    margin-left: 7%;
+}
+.genrecol {
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-bottom: -10px;
+    gap: 10px; /* Adjust as needed for spacing between genres */
+}
+.title1 {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 31px;
+    width: fit-content;
+}
+
+.title2 {
+    font-size: 18px;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    width: fit-content;
+}
+.title3 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    width: fit-content;
+}
+.title4 {
+    font-size: 60px;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    font-weight: bold;
+    color:#fff;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+    background-color: #1E1F20;
+    padding: 10px;
+    margin: 9px;
+    text-align: center;
+    border: 1px solid #333;
+    width: 160px;
+    height: 310px;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+.box img {
+    width: 150px;
+    height: 250px;
+    border-radius: 3px;
+    margin-bottom: -10px; 
+}
+
+.box h2 {
+    margin-top: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+/*menu*/
+.menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*menu*/
+.menu {
+    text-align: center;
+}
+
+.menu-item {
+    display: inline-block;
+    margin: 10px; /* Adjust the margin to add space between items */
+    text-align: center;
+    vertical-align: top; /* Aligns items to the top of their container */
+}
+
+.menu-item img {
+    max-width: 130px; /* Adjust the width as needed */
+    height: auto;
+    display: block; /* Ensure images don't have extra space at the bottom */
+    margin: 0 auto; /* Center images */
+}
+
+.menu-item p {
+    margin-top: 5px; /* Add some space between image and text */
+}
+
+/* Profile */
+
+.profile-area {
+    margin-left: 27%; /* Consider sidebar width */
+    padding: 10px;
+    margin-top: -10px;
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+
+.profile-box {
+    width: 90%;
+    height: 135px;
+    background-color: #1E1F20;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    color: white;
+    margin-top: 50px;
+    margin-right: 0;
+    margin-bottom: 0px;
+}
+.profile-picture {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #3498db;
+    margin-right: 12px;
+    margin-left: 8px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the entire circular container */
+}
+.user-info {
+    text-align: left;
+}
+
+
+/*about us page*/
+.name-logo-text {
+    text-align: center;
+}
+.name-logo-text img {
+    max-width: 350px;
+    margin-top: 30px;
+    margin-bottom: -40px;
+}
+.headerimage {
+    width: auto;
+    max-height: 400px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerimage img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-bottom: 1px solid #fff;
+}
+.member {
+    text-align: center;
+    margin-block: 5px;
+}
+
+.members-pfp {
+    width: 160px; /* Adjust the width as needed */
+    height: 260px; /* Adjust the height as needed */
+    border-radius: 20px; /* Adjust the border-radius for curved corners */
+    background-color: #3498db;
+    margin-right: 20px;
+    margin-left: 35px;
+    margin-bottom: 50px;
+    margin-top: -30px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: transform 0.3s ease-in-out; /* Add transition for smooth effect */
+}
+
+.members-pfp:hover {
+    transform: scale(1.1); /* Add scale effect on hover */
+}
+.members-pfp img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the entire circular container */
+}
+
+/* Add these styles to your existing CSS file */
+.container-box {
+    padding: 20px; /* Adjust as needed */
+    background-color: #2C2D2E; /* Change color as needed */
+    border: 2px solid #2C2D2E; /* Add outline/border */
+    width: calc(33% - 20px); /* Adjust as needed, considering margin and border */
+    height: 500px;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0% 85%); /* Creates the reversed triangle shape at the bottom */
+    margin: 0.4%; /* Balanced margin between boxes */
+    box-sizing: border-box;
+    display: inline-block; /* Display as inline-block to place them in the same line */
+}
+
+.services-row {
+    text-align: center; /* Center the boxes within the row */
+    margin-top: 40px;
+}
+
+.services-box {
+    width: 100%; /* Occupy full width within container-box */
+}
+
+.services-box img {
+    max-width: 50%;
+    height: auto;
+;
+}
+
+.services-box h1, .services-box p {
+    text-align: center;
+}
+
+/* Table in profile */
+table {
+    border-collapse: collapse;
+    width: 92%; /* Set table width to 100% */
+    margin-left: 3px;
+    padding: 10px;
+    height: 260px;
+    text-align: center;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid white;
+    /* Remove any fixed widths or margins that might cause overlapping */
+    /* For example: width: 33.33%; */
+    /* padding-right: 10px; */
+}
+
+th:second-child,
+td:second-child {
+    border-left: none;
+}
+
+th:last-child,
+td:last-child {
+    border-left: none;
+}
+table tr:nth-child(1) td:nth-child(3) {
+    color: white;
+}
+table td:nth-child(3) {
+    color: green;
+}
+table tr:nth-child(1) {
+    font-size:20px;
+}
+
+
+/* Add these styles to your existing CSS file */
+
+.footer {
+    padding: 20px;
+    background-color: #0b0b0b;
+    color: #fff;
+}
+
+.footer-heading {
+    font-size: 24px;
+    margin-top: -5px;
+    margin-bottom: 15px;
+    margin-left: 16px;
+}
+.contact-container {
+    display: flex;
+    align-items: center; /* Center vertically */
+    margin-bottom: 10px;
+}
+.icons {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.icons img {
+    max-height: 35px;
+}
+.contact-text {
+    font-size: 16px;
+    margin: 0;
+}
+
+
+.top-bar {
+    background-color:  #0b0b0b;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: static;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.search-container {
+    flex-grow: 2;
+    text-align: right;
+}
+
+.search-box {
+    padding: 5px;
+}
+
+.sidebar {
+    width: 25%;
+    background-color: #1E1F20;
+    color: white;
+    height: 100vh;
+    float: left;
+    text-align: left;
+    margin-bottom: -10px;
+}
+
+.sidebar .dashboard-content {
+    margin-left: 43px;
+    font-size: 20px;
+}
+
+.dashboard {
+    padding: 10px;
+}
+
+/* Adjust the profile box and table */
+.user-info {
+    text-align: left;
+}
+
+/* Style for links in the sidebar */
+.sidebar ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li .nav-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.sidebar ul li .nav-link img,
+.sidebar ul li .nav-link svg {
+    width: 50px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    margin-right: 10px;
+}
+
+.sidebar ul li a:hover {
+    background-color: #555;
+}
+
+/* this portion is for the book page na */
+.book-container {
+    position: relative;
+    padding: 30px;
+    max-width: 70%; /* Allow the container to take the full width of the viewport */
+    max-height: 80%;
+    border: 1px solid #6A7275;
+    border-radius: 5px;
+    background-color: #282B2E;
+    color: white;
+    text-align: left; /* Align text to the left */
+    margin: 0 auto; /* Center the container horizontally */
+    margin-top: 40px;
+    overflow: hidden; /* Clear floats inside the container */
+    margin-bottom: 50px;
+}
+
+.book-image img {
+    height: 500px;
+    width: auto; /* Maintain the aspect ratio */
+    max-width: 100%; /* Make the image responsive within its container */
+    float: left; /* Float the image to the left */
+    margin-right: 20px; /* Add margin to separate from text */
+    margin-left: -10px;
+    border-radius: 5px;
+    object-fit: cover;
+    display: fit;
+}
+
+.book-details {
+    overflow: hidden; /* Clear floats inside the book-details div */
+}
+
+.book-links {
+    color: white;
+    text-decoration: none;
+    margin-top: -20px;
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-bottom: 10px; /* Add margin at the bottom */
+    text-align: center;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    }
+
+
+.section-header {
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 20px; /* Adjust margin */
+}
+
+.header {
+    color: #ACADAE;
+    font-size: 26px;
+    font-weight: lighter;
+    margin-top: auto; /* Set margin-top to auto to push it to the bottom */
+    margin-bottom: 20px; /* Add margin-bottom to provide space */
+}
+
+.button-container {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 20px; /* Adjust margin as needed */
+}
+
+button {
+    background-color: #3C4244;
+    width: 150px;
+    height: 50px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 27px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #555C5F;
+    box-shadow: none;
+}
+
+/* Style for "Available" */
+.header.available span {
+    color: #3CBD6B;
+}
+
+/* Style for "Unavailable" */
+.header.unavailable span {
+    color: #FF3434;
+}
+/*test*/
+.invisible-table {
+    border-collapse: collapse;
+    margin-left: 7%;
+    margin-top: -10px;
+    margin-bottom: -20px;
+    width: 200px;
+    height: 30px;
+
+}
+
+.invisible-table td {
+    border: 1px solid transparent;
+    padding: 5px;
+}
+
+.invisible-table .book-links {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.pagination a {
+    border: 2px solid #333;
+    border-radius: 50%;
+    color: #333;
+    padding: 10px 15px;
+    margin: 0 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.pagination a.active {
+    background-color: #333;
+    color: #fff;
+}
+
+.services-row .name-logo-text img {
+    width: 45px;
+    margin-bottom: 20px;
+}
