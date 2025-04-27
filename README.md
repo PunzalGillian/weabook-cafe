@@ -11,15 +11,11 @@ A full-stack web application built with **PHP**, **MySQL**, and **Hack** for rob
 ![Hack](https://img.shields.io/badge/Performance-Hack-lightgrey)  
 ![CSS](https://img.shields.io/badge/Style-CSS-orange)  
 
-## ✨ Premium Features  
+## ✨ Features  
 
 - **📚 Digital Manga Library**  
   - 500+ manga titles with covers, synopses and genre tags  
   - Advanced search with filters (genre, author, status)  
-
-- **🔐 Secure User System**  
-  - Password-hashed accounts with borrowing history  
-  - Admin dashboard for inventory management  
 
 - **⏳ Smart Borrowing System**  
   - Real-time availability tracking  
@@ -97,8 +93,6 @@ A full-stack web application built with **PHP**, **MySQL**, and **Hack** for rob
 [![Admin Panel](https://github.com/user-attachments/assets/88092f61-0528-474d-86e8-f40889b806e6)](preview)  
 *Inventory management interface*
 
-
-[![GitHub Stars](https://img.shields.io/github/stars/your-username/weabook-cafe?style=social)](https://github.com/your-username/weabook-cafe)
 **Enjoy your stay at Weabook Cafe!** 🍵📚  
 
 > *Originally developed for a school project back in 2021*  
